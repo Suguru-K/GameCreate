@@ -10,7 +10,9 @@ This game was created from a learning site, and this version is a prototype.<br>
 
 ## Usage
 The operation is simple and operates as follows.<br>
-When you open "Pick up the Ball.app", the Configuration screen will open, so after deciding on [Screen resolution] and [Graphics Quality], click the [Play!] Button to start.
+When you open "Pick up the Ball.app", the Configuration screen will open,<br>
+ so after deciding on [Screen resolution] and [Graphics Quality],<br>
+ click the [Play!] Button to start.<br>
 [←]:Bar moves to the left.<br>
 [→]:Bar moves to the right.<br>
 
