@@ -63,7 +63,9 @@
     <Compile Include="Assets\Scripts\BallFactoryScript.cs" />
     <Compile Include="Assets\Scripts\BallScript.cs" />
     <Compile Include="Assets\Scripts\ButtonScript.cs" />
+    <Compile Include="Assets\Scripts\ButtonScript_start.cs" />
     <Compile Include="Assets\Scripts\NewBehaviourScript.cs" />
+    <Compile Include="Assets\startScript.cs" />
     <Reference Include="Unity.TextMeshPro.Editor">
       <HintPath>/Users/suguru/unity_proj/MyBallGame/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>

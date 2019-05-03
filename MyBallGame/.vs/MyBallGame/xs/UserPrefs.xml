@@ -1,5 +1,9 @@
 ﻿<Properties StartupConfiguration="{E0521D24-8F42-06EC-C355-FF857D7CB327}|">
-  <MonoDevelop.Ide.Workbench />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/ButtonScript_start.cs">
+    <Files>
+      <File FileName="Assets/Scripts/ButtonScript_start.cs" Line="8" Column="19" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="Unity.Editor" />
