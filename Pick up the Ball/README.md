@@ -1,4 +1,4 @@
-Pick up the Ball Game (β)
+Pick up the Ball.app (β)
 ====
 This game is a simple game that picks up the ball.
 
