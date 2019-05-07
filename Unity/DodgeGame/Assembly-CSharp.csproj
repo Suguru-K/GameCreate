@@ -62,9 +62,10 @@
   <ItemGroup>
     <Compile Include="Assets\Scripts\BarObstReplicScript.cs" />
     <Compile Include="Assets\Scripts\BarObstScript.cs" />
-    <Compile Include="Assets\Scripts\ButtonScript.cs" />
     <Compile Include="Assets\Scripts\ButtonScript_start.cs" />
     <Compile Include="Assets\Scripts\MainPersonScript.cs" />
+    <Compile Include="Assets\Scripts\RetryButtonScript.cs" />
+    <Compile Include="Assets\Scripts\TitleButtonScript.cs" />
     <Reference Include="Unity.TextMeshPro.Editor">
       <HintPath>/Users/suguru/GitHub/GameCreate/Unity/DodgeGame/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>

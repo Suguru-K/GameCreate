@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class ButtonScript : MonoBehaviour
+public class RetryButtonScript : MonoBehaviour
 {
     public void ReplayGame2()
     {

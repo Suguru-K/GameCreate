@@ -1,23 +1,12 @@
 ﻿<Properties StartupConfiguration="{7C3E3DB9-57D4-0642-8015-AA34A1903036}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/BarObstScript.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/TitleButtonScript.cs">
     <Files>
       <File FileName="Assets/Scripts/MainPersonScript.cs" Line="10" Column="12" />
       <File FileName="Assets/Scripts/BarObstReplicScript.cs" Line="27" Column="21" />
       <File FileName="Assets/Scripts/BarObstScript.cs" Line="46" Column="24" />
+      <File FileName="Assets/Scripts/RetryButtonScript.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/TitleButtonScript.cs" Line="1" Column="1" />
     </Files>
-    <Pads>
-      <Pad Id="ProjectPad">
-        <State name="__root__">
-          <Node name="DodgeGame" expanded="True">
-            <Node name="Assets" expanded="True">
-              <Node name="Scripts" expanded="True">
-                <Node name="BarObstScript.cs" selected="True" />
-              </Node>
-            </Node>
-          </Node>
-        </State>
-      </Pad>
-    </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
