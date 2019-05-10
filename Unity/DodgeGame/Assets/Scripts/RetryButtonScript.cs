@@ -5,8 +5,9 @@ using UnityEngine.SceneManagement;
 
 public class RetryButtonScript : MonoBehaviour
 {
-    public void ReplayGame2()
+    public void ToMainScene()
     {
+        //メインシーンに遷移
         SceneManager.LoadScene("MainScene");
     }
 

@@ -11,7 +11,7 @@ public class BarObstReplicScript : MonoBehaviour
     void Start()
     {
         //一定時間毎に実行する処理(実行するメソッド, 開始時間, 何秒ごと)
-        InvokeRepeating("SpawnBar", 0f, 1.2f);
+        InvokeRepeating("SpawnBar", 0f, 1.4f);
     }
 
     // フレーム毎処理

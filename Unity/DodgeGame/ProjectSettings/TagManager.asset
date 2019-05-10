@@ -9,6 +9,10 @@ TagManager:
   - Cube
   - Item
   - Cube_Back
+  - itemBlue
+  - bar
+  - itemRed
+  - Cube_Back_Empty
   layers:
   - Default
   - TransparentFX

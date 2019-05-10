@@ -5,28 +5,22 @@ using UnityEngine.SceneManagement;
 
 public class BarObstScript : MonoBehaviour
 {
-    // Barの長さ
-    //public float bar_length;
-    // Barの速度
-    public float bar_speed;
+    public float bar_speed = 5f;  // Barの速度
+    public GameObject MainPersonObject;  //MainPersonオブジェクト
+    public MainPersonScript mainPersonScript;  //MainPersonスクリプト
 
-    public GameObject MainPersonObject;
-    public MainPersonScript mainPersonScript;
-
-    // 実行時初期処理
     void Start()
     {
         // Barの大きさは範囲内でランダム
-        transform.localScale = new Vector3(1f, 1f, Random.Range(3f, 6f));
-
+        transform.localScale = new Vector3(1f, 1f, Random.Range(4f, 5f));
+        // MainPersonのスクリプト呼び出し
         MainPersonObject = GameObject.Find("MainPerson");
         mainPersonScript = MainPersonObject.GetComponent<MainPersonScript>();
     }
 
-    // 毎フレーム実行処理
     void Update()
     {
-        // x+方向に動く
+        // x+方向のみに動く
         transform.position += new Vector3(bar_speed * Time.deltaTime, 0f, 0f);
     }
 
@@ -37,14 +31,13 @@ public class BarObstScript : MonoBehaviour
         {
             //ゲームオーバー
             SceneManager.LoadScene("GameOverScene");
-            //Debug.Log("Bar:"+bar_speed);
         }
     }
 
     private void OnTriggerEnter(Collider other)
     {
         //CubeBackに重なった場合
-        if (other.gameObject.CompareTag("Cube_Back"))
+        if (other.gameObject.CompareTag("Cube_Back_Empty"))
         {
             //Barを消す
             Destroy(gameObject);

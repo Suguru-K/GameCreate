@@ -7,6 +7,7 @@ public class TitleButtonScript : MonoBehaviour
 {
     public void ToTitle()
     {
+        // タイトルシーンに遷移
         SceneManager.LoadScene("TitleScene");
     }
 
