@@ -4,7 +4,8 @@ This game is a simple game that avoids obstacles.
 
 ## Description
 When you hit an obstacle, the game is over.<br>
-Picking up an item will speed you up, or speed up obstacles. (Provisional)<br>
+When you get "Blue Ball", moving speed up.<br>
+When you get "Red Bsll", score up.<br>
 ※ This game is constantly updating additional elements.<br>
 
 ## Usage
